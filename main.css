@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Custom-Font';
+  src: url('VTKS ANIMAL 2.ttf');
+}
+
+h1 { 	font-family: 'orator std';
+		font-weight:normal; 
+		font-size: 100px;
+		color:white;
+		text-align:center;}
+		
+.Button{	font-family: 'orator std';
+			color:white;
+			font-size:115px;
+			text-align:center;
+			list-style:none;
+}
+
+a {color:white;text-decoration:none}
+a:visited {color:white;}
+a:hover{color:#00BFFF;}
+
+
+html { 
+	background:black; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+footer {
+			margin-left: 10px;
+			width: 200%; 
+			position: fixed; 
+			bottom: 10px; 
+			left: 0; 
+			z-index: 99;
+		}
+		
+		
+#parent {
+    padding: 5% 0;
+}
+
+#child {
+    padding: 3% 0;
+}
+    
